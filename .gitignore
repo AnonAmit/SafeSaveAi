@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# Distribution / Build
+dist/
+build/
+*.spec
+
+# Logs
+*.log
+app.log
+
+# Config (User Settings shouldn't be shared)
+config.json
+
+# Generated Icons
+logo.ico
+
+# IDE
+.vscode/
+.idea/
