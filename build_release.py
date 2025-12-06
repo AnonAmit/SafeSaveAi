@@ -137,10 +137,12 @@ exe_one = EXE(
     print("Zipping Portable Version...")
     portable_src = os.path.join("dist", "SafeMoveAI_Portable")
     # Add README
-    shutil.copy("README.md", portable_src)
+    if os.path.exists("README.md"):
+        shutil.copy("README.md", portable_src)
     
+    zip_name = "SafeMoveAI_v2.0.0_Portable"
     shutil.make_archive(
-        os.path.join("dist", "SafeMoveAI_Portable"), 
+        os.path.join("dist", zip_name), 
         'zip', 
         portable_src
     )
