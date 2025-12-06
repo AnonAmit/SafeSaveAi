@@ -2,8 +2,8 @@
 
 SafeMove AI is an intelligent file management utility designed to safely move applications (e.g., from `C:` to `D:`) without breaking them. It uses **Windows Directory Junctions** (`mklink /J`) and robust `robocopy` operations to ensure data integrity and seamless redirection.
 
-# ui
-<img src="https://raw.githubusercontent.com/Amit/fancy-tool/main/ui.png" width="300" />
+# UI
+<img src="ui.png" width="300" />
 
 ## Key Features
 
